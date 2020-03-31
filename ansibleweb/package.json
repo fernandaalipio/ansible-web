@@ -1,0 +1,38 @@
+{
+  "name": "ansibleweb",
+  "version": "1.0.0",
+  "description": "Interface web para criar maquinas no Ansible Tower.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://luizfermiranda@bitbucket.org/luizfermiranda/ansibleweb.git"
+  },
+  "keywords": [
+    "ansible",
+    "web",
+    "nodejs"
+  ],
+  "author": "Luiz Miranda",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/luizfermiranda/ansibleweb#readme",
+  "dependencies": {
+    "@patternfly/react-core": "^3.124.1",
+    "axios": "^0.19.0",
+    "c3": "^0.7.11",
+    "d3": "^5.14.2",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "http.js": "^1.0.0",
+    "jquery-match-height": "^0.7.2",
+    "patternfly": "^3.59.4",
+    "pkginfo": "^0.4.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "request": "^2.88.0",
+    "web-push": "^3.4.1"
+  }
+}
